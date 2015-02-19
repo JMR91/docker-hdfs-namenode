@@ -13,4 +13,8 @@
     <name>dfs.name.dir</name>
     <value>file:///var/hdfs/namenode</value>
   </property>
+  <property>
+    <name>dfs.namenode.datanode.registration.ip-hostname-check</name>
+    <value>false</value>
+  </property>
 </configuration>
