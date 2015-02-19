@@ -11,6 +11,6 @@
   </property>
   <property>
     <name>dfs.name.dir</name>
-    <value>file:///var/hdfs_nn</value>
+    <value>file:///var/hdfs/namenode</value>
   </property>
 </configuration>
