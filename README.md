@@ -9,6 +9,6 @@ Runs a hdfs namenode in a docker container
 ## Example
 
 ```bash
-docker run -d -p 8020:8020 -p 50070:50070 hauptmedia/hdfs-namenode
+docker run -d --name namenode -p 8020:8020 -p 50070:50070 hauptmedia/hdfs-namenode
 ```
 
