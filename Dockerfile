@@ -1,6 +1,6 @@
 FROM		hauptmedia/hadoop-base
 
-ENV     	HDFS_NAMENODE_ROOT_DIR=/var/hdfs_nn
+ENV     	HDFS_NAMENODE_ROOT_DIR=/var/hdfs/namenode
 
 ADD		conf/core-site.xml	${HADOOP_INSTALL_DIR}/etc/hadoop/core-site.xml
 ADD		conf/hdfs-site.xml	${HADOOP_INSTALL_DIR}/etc/hadoop/hdfs-site.xml
